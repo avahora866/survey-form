@@ -2,3 +2,48 @@
     display: grid;
     justify-content: center;
 }
+
+#email-input label {
+    margin-top: 1.5rem;
+    margin-left: 0;
+}
+
+#gender-input label {
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 856px) {
+    #name-input,
+    #email-input,
+    #gender-input {
+        justify-content: center;
+    }
+    #name-input {
+        display: flex;
+    }
+    #name-input label {
+        margin-right: 25px;
+    }
+    #name-input input {
+        width: 50%;
+    }
+    #email-input {
+        display: flex;
+    }
+    #email-input label {
+        margin-top: 0;
+        margin-right: 30px;
+    }
+    #email-input input {
+        width: 50%;
+    }
+    #gender-input {
+        display: flex;
+    }
+    #gender-input label {
+        margin-top: 0;
+    }
+    #gender-input select {
+        width: 50%;
+    }
+}
